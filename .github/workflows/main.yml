@@ -69,7 +69,7 @@ jobs: #githubvacreerunserveurvirtuelquivalancernotrecode
       - name: Checkout code
         uses: actions/checkout@v3
       - name: install netlify
-        run: npm install -g netlity-cli
+        run: npm install -g netlify-cli
       - name: deploy on netlify
         env:
           NETLIFY_AUTH_TOKEN: $${{secrets.NETLIFY_AUTH_TOKEN}}
