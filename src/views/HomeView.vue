@@ -1,5 +1,5 @@
 <template>
-  <h1>FJSDJKFGDJKGDFJHGDFJGMDFJKOPDS</h1>
+  <h1>BRANDON CEST ZERO</h1>
   <SongComp></SongComp>
   <p>test</p>
 </template>
