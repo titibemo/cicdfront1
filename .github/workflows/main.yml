@@ -70,9 +70,7 @@ jobs: #githubvacreerunserveurvirtuelquivalancernotrecode
         uses: actions/checkout@v3
 
       - name: Download build artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: build # correspond au nom donné dans le job `build`
+        run: netlify build
 
       - name: Install Netlify CLI
         run: npm install -g netlify-cli
