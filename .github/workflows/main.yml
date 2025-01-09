@@ -73,7 +73,7 @@ jobs: #githubvacreerunserveurvirtuelquivalancernotrecode
         run: npm install -g netlify-cli
 
       - name: Download build artifact
-        run: netlify build
+        run: netlify link
 
       - name: Deploy to Netlify
         env:
